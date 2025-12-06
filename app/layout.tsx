@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
 import "./globals.css";
+import { ReactLenis } from "lenis/react";
 
 const workSans = Work_Sans({
 	variable: "--font-work-sans",
@@ -22,6 +23,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
+			<ReactLenis root />
 			<body className={`${workSans.className} antialiased`}>{children}</body>
 		</html>
 	);
