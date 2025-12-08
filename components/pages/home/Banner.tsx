@@ -1,15 +1,15 @@
 import Image from "next/image";
 
 export default function Banner() {
-  return (
-    <div className="min-h-[60vh] relative">
-      <Image
-        src="/assets/images/home/GettyImages-2184924844.webp"
-        alt="banner"
-        fill
-        loading="eager"
-        className="object-cover"
-      />
-    </div>
-  );
+	return (
+		<div className="min-h-[60vh] relative">
+			<Image
+				src="/assets/images/home/GettyImages-2184924844.webp"
+				alt="banner"
+				fill
+				loading="eager"
+				className="object-cover"
+			/>
+		</div>
+	);
 }

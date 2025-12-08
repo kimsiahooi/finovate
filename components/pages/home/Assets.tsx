@@ -6,6 +6,7 @@ import {
 } from "lucide-react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/shared";
 
 export default function Assets() {
   return (
@@ -120,6 +121,13 @@ export default function Assets() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div>
+            <div>
+              <Badge>WHO WE ARE</Badge>
             </div>
           </div>
         </div>
